@@ -36,7 +36,7 @@ For development, you can leave the environment variables empty to use demo mode,
 ```env
 # Supabase (optional - leave empty for demo mode)
 NEXT_PUBLIC_SUPABASE_URL=
-NEXT_PUBLIC_SUPABASE_ANON_KEY=
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=
 
 # Anthropic API (optional - leave empty for demo mode)
 ANTHROPIC_API_KEY=
@@ -72,7 +72,7 @@ Update your `.env.local`:
 
 ```env
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your-anon-key
 ```
 
 ### 4. Configure Auth Settings

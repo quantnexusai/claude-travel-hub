@@ -2,7 +2,7 @@
 
 A modern travel marketplace with tour booking, search, and Claude AI-powered travel recommendations. Built with Next.js 15, React 19, Supabase, and the Anthropic Claude API.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fquantnexusai%2Fclaude-travel-hub&env=NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_ANON_KEY,ANTHROPIC_API_KEY&envDescription=API%20keys%20for%20Supabase%20and%20Claude%20AI&envLink=https%3A%2F%2Fgithub.com%2Fquantnexusai%2Fclaude-travel-hub%23environment-variables&project-name=claude-travel-hub&repository-name=claude-travel-hub)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fquantnexusai%2Fclaude-travel-hub&env=NEXT_PUBLIC_SUPABASE_URL,NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY,ANTHROPIC_API_KEY&envDescription=Get%20keys%20from%20Supabase%20and%20Anthropic&envLink=https%3A%2F%2Fgithub.com%2Fquantnexusai%2Fclaude-travel-hub%23environment-variables&project-name=claude-travel-hub&repository-name=claude-travel-hub)
 
 ## Features
 
@@ -29,7 +29,7 @@ To enable full functionality, add these environment variables in your Vercel pro
 | Variable | Description | Required |
 |----------|-------------|----------|
 | `NEXT_PUBLIC_SUPABASE_URL` | Your Supabase project URL | For auth & database |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Your Supabase anonymous key | For auth & database |
+| `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Your Supabase publishable key | For auth & database |
 | `ANTHROPIC_API_KEY` | Your Anthropic API key | For Claude AI features |
 
 ### 3. Set Up Supabase (Optional)
@@ -39,7 +39,7 @@ If you want to use real authentication and database:
 1. Create a free account at [supabase.com](https://supabase.com)
 2. Create a new project
 3. Go to SQL Editor and run the schema from `supabase/schema.sql`
-4. Copy your project URL and anon key to Vercel environment variables
+4. Copy your project URL and publishable key to Vercel environment variables
 5. Redeploy your application
 
 ## Environment Variables
@@ -48,7 +48,7 @@ Create a `.env.local` file for local development:
 
 ```env
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=your_supabase_anon_key
 ANTHROPIC_API_KEY=your_anthropic_api_key
 ```
 
