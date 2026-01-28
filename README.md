@@ -105,7 +105,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for local development instructions.
 
 ## Need Help?
 
-For assistance with deployment, configuration, or customization (MCP servers, AI agents, etc.), contact us at **templates@quantnexus.ai**
+For assistance with deployment, configuration, or customization (MCP servers, AI agents, etc.), contact us at **ari@quantnexus.ai**
 
 ## License
 
