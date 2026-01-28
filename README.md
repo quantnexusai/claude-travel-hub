@@ -103,6 +103,10 @@ This allows users to explore all features immediately after deployment.
 
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for local development instructions.
 
+## Need Help?
+
+For assistance with deployment, configuration, or customization (MCP servers, AI agents, etc.), contact us at **templates@quantnexus.ai**
+
 ## License
 
 MIT License - see [LICENSE](./LICENSE) for details.
